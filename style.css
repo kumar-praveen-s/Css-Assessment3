@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border: 10px solid darkred;
+    background-color: white;
+    color: darkred;
+    text-align: center;
+    position: relative;
+    left: 510px;
+    top: 5px;
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+}
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid green;
+    height: 600px;
+}
+.flexbox1 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkred;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    border: 10px solid darkred;
+    background-color: white;
+    color: darkred;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+    font-size: 22px;
+    line-height: 40px;
+    text-shadow:2px 1px 1px darkred;
+    font-weight: bolder;
+}
+.flexbox2 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkred;
+    position: absolute;
+    left: 75%;
+    top: 200px;
+    border: 10px solid darkred;
+    background-color: white;
+    color: darkred;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+}
+.flexbox3 {
+    width: 450px;
+    height: 100px;
+    border: 10px solid darkred;
+    position: fixed;
+    top: 600px;
+    left: 525px;
+    border: 10px solid darkred;
+    background-color: greenyellow;
+    color: darkred;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+    font-size: 22px;
+    display: flex;
+    font-style: italic;
+    font-weight: 700;
+    z-index: 2;
+}
+.flexbox4 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkred;
+    position: absolute;
+    top: 550px;
+    left: 10%;
+    border: 10px solid darkred;
+    background-color: white;
+    color: darkred;
+    /* text-align: center; */
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+    text-shadow:2px 0px 1px darkred;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.flexbox5 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkred;
+    position: absolute;
+    top: 550px;
+    left: 75%;
+    border: 10px solid darkred;
+    background-color: white;
+    color: darkred;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:10px 10px darkviolet;
+}
+.product-style {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 800px;
+    height: 800px;
+    background-color: green;
+    text-align: center;
+    border: 10px solid darkviolet;
+}
+.fruit-style{
+    width: 380px;
+    height: 380px;
+    background-color: yellow;
+    text-align: center;
+}
+.product-details-style{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+}
+.item-style{
+    width: 780px;
+    height: 280px;
+    background-color: yellow;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.para-style{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: capitalize;
+}
